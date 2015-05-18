@@ -1,0 +1,68 @@
+.box{
+	height: 500px;
+	font-size: 1.2em;
+	padding:8% 30% 0;
+	border-top: 2px solid rgb(195, 198, 197);
+	background-size: cover;
+	background-position:no-repeat;
+	background-attachment: fixed;
+}
+.box-text{
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: 8%;
+}
+.box .box-text h1{
+	color: white;
+}
+.texto-central{
+	width: 100%;
+	margin: 0 auto;
+	padding: 4% 0;
+}
+.texto-central p{
+	color: white;
+}
+.pilares{
+	padding: 7% 12%;
+	font-size: 1.2em;
+	background-color: rgb(220, 222, 224);
+	margin-bottom: 0;
+}
+.separador-pilar{
+	border-top: 1px solid gray;
+	width: 100%;
+	margin: 10% 0;
+}
+.pilares .col-4{
+	padding: 0 5%;
+	color: rgb(151, 154, 159);
+}
+.instructores{
+	padding: 7% 10%;
+	background-color: white;
+	margin: 0 -14px;
+	font-size: 1.6em; 
+}
+.instructores .col-3{
+	padding-top:2%;
+}
+.instructores .col-3 .img{
+	background-color: rgb(83, 88, 95);
+	height: 230px;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.instructores .col-3 .img img{
+	width: 100%;
+}
+.instructores .col-3 .texto{
+	padding: 7% 1%;
+	text-align: left;
+}
+.instructores .col-3 .texto p{
+	font-size: 18px;
+	padding-top: 6%;
+
+}

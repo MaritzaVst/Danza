@@ -1,0 +1,42 @@
+section{
+	padding: 5% 10%;
+}
+.row{
+	padding-bottom: 5%;
+}
+.blog .col-3{
+	background-color: rgb(83, 88, 95);
+	height: 285px;
+}
+.blog .col-9{
+	background-color: rgb(220, 222, 224);
+	height: 285px;
+	padding: 4%;
+	text-align: left;
+	line-height: 1.2;
+}
+.blog .col-9 h5{
+	font-size: 1em;
+}
+.blog .col-9 p{
+	font-size: 18px;
+}
+.blog .col-9 p:nth-child(2){
+	margin: 1% 0;
+}
+.blog .col-9 p em{
+	color:rgb(185, 187, 184);
+}
+.boton-blog{
+	padding: 1.5%;
+	border: 2px solid rgb(142, 145, 150);
+	border-radius: 5px;
+	width: 28%;
+	margin-top:3%;
+	text-align: center;
+}
+.boton-blog a{
+	text-decoration: none;
+	color: rgb(166, 170, 169);
+	font-size: 18px;
+}
