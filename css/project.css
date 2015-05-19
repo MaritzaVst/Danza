@@ -48,10 +48,6 @@
 #banner1 .texto{
 	font-size: 1.8em;
 }
-#banner1 .boton:hover{
-	background-color: rgba(25, 41, 81, 0.8);
-}
-
 div.separador{
 	width: 150px;
   	margin: 0 auto;
@@ -71,9 +67,8 @@ div.boton{
 	font-size: 20px;
 	transition:all 0.3s ease-in-out;
 }
-div.boton a{
-	color: white;
-	text-decoration: none;
+.boton:hover{
+	background-color: rgba(55, 83, 152, 1);;
 }
 #instructores{
 	position: relative;
@@ -130,7 +125,7 @@ div.separador-frase img{
 }
 #contacto {
 	height: 660px;
-	padding: 4% 5% 7%;
+	padding: 5% 10%;
 	font-size: 2em;
 	margin: 0 auto;
 	background-image: url(../img/shoes_1.jpg);
@@ -138,12 +133,9 @@ div.separador-frase img{
   	background-size: 60%;
   	background-position: right;
   	position: relative;
-  	  background-position-y: 30%;
+  	  background-position-y: 65%;
 }
 #contacto .titulo-contactanos{
-	position: absolute;
-  	bottom: 10%;
-  	right: 10%;
   	font-weight: bold;
 }
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
@@ -166,30 +158,29 @@ html{
 #form-main{
 	width:100%;
 	float:left;
-	padding-top:30px;
+	padding-top:15px;
 }
 
 #form-div {
-	padding-left:35px;
 	padding-right:35px;
 	padding-top:35px;
 	padding-bottom:50px;
 	width: 40%;
 	position: absolute;
 }
-
+textarea{
+	background-color: transparent;
+}
 .feedback-input {
-	opacity:0.9;
 	color:#0493bd;
 	font-family: ;
-  font-weight:400;
+  	font-weight:400;
 	font-size: 18px;
 	border-radius: 0;
 	line-height: 22px;
-	background-color: #fbfbfb;
-  border: 3px solid #fbfbfb;
+	border: 2px solid #DAD7D7;
 	padding: 13px 13px 13px 54px;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 	width:100%;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -200,10 +191,10 @@ html{
 .feedback-input:focus{
 	background: #fff;
 	box-shadow: 0;
-	border: 3px solid #3498db;
-	color: #3498db;
+	border: 2px solid #192951;
+	color: #192951;
 	outline: none;
-  padding: 13px 13px 13px 54px;
+  	padding: 13px 13px 13px 54px;
 }
 
 .focused{
@@ -262,10 +253,11 @@ input:focus, textarea:focus {
 #button-blue{
 	float:left;
 	width: 100%;
-	border: #fbfbfb solid 4px;
+	border: #192951;
+	border-radius: 5px;
 	cursor:pointer;
-	background-color:rgba(0,0,0,0) ;
-	color:#0493bd;
+	background-color:#192951;
+	color:white;
 	font-size:24px;
 	padding-top:22px;
 	padding-bottom:22px;
@@ -275,29 +267,11 @@ input:focus, textarea:focus {
 }
 
 #button-blue:hover{
-	background-color:#192951;
-	color: white;
+	background-color: rgba(55, 83, 152, 1);;
 }
 	
 .submit:hover {
 	color: #3498db;
-}
-	
-.ease {
-  border-top:3px #3c3c3c solid;
-	width: 0px;
-	height: 76px;
-	background-color: #fbfbfb;
-	-webkit-transition: .3s ease;
-	-moz-transition: .3s ease;
-	-o-transition: .3s ease;
-	-ms-transition: .3s ease;
-	transition: .3s ease;
-}
-
-.submit:hover .ease{
-  width:100%;
-  background-color:white;
 }
 
 @media only screen and (max-width: 580px) {

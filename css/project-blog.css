@@ -38,7 +38,7 @@ section{
 	transition:all 0.3s ease-in-out;
 }
 .boton-blog:hover{
-	background-color: rgba(25, 41, 81, 0.8);
+	background-color: rgba(55, 83, 152, 1);;
 }
 .boton-blog a{
 	text-decoration: none;
