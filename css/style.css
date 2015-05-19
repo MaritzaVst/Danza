@@ -105,11 +105,10 @@ footer{
 	color: rgb(83, 88, 95);
 }
 .text-blue{
-
+ color: #192951;
 }
 .a-none-decoration{
 	text-decoration: none;
-	color: white;
 }
 .bg-gray{
 	background-color: rgb(244, 244, 244);

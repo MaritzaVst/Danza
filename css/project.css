@@ -119,15 +119,14 @@ div.separador-frase img{
 	width: 14%;
 	margin:5% 0 0;
 }
-#mapa div{
-	background-color: #192951;
-	margin: 0 auto;
-	text-align: left;
-	padding:7%;
-}
 #mapa{
 	height: 530px;
   	background-color: #192951;
+}
+#mapa div{
+	margin: 0 auto;
+	text-align: left;
+	padding:6%;
 }
 #contacto {
 	height: 660px;
