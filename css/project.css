@@ -48,6 +48,9 @@
 #banner1 .texto{
 	font-size: 1.8em;
 }
+#banner1 .boton:hover{
+	background-color: rgba(25, 41, 81, 0.8);
+}
 
 div.separador{
 	width: 150px;
@@ -105,9 +108,6 @@ div.boton a{
 	letter-spacing: 1px;
 	background-color:#192951;
 	border-radius: 3px;
-}
-.boton-del-mal p{
-	color: white;
 }
 .frase{
 	background-attachment: fixed;
